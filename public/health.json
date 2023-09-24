@@ -1,0 +1,27 @@
+[
+    {
+      "title": "Cancer Research",
+      "background-color": "#FFC0CB",
+      "text-colour": "#000000",
+      "price": "$50",
+      "description": "Help fund cancer research and support those affected by cancer.",
+      "real image": "https://i.imgur.com/1JQdK5z.jpg"
+    },
+    {
+      "title": "Mental Health Awareness",
+      "background-color": "#ADD8E6",
+      "text-colour": "#000000",
+      "price": "$25",
+      "description": "Support mental health awareness and help those struggling with mental health issues.",
+      "real image": "https://i.imgur.com/7v1jJg3.jpg"
+    },
+    {
+      "title": "Child Health and Nutrition",
+      "background-color": "#90EE90",
+      "text-colour": "#000000",
+      "price": "$10",
+      "description": "Help provide children with access to nutritious food and healthcare.",
+      "real image": "https://i.imgur.com/4zL9W8V.jpg"
+    }
+  ]
+  
