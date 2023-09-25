@@ -1,27 +1,148 @@
 [
     {
+      "category":"Health",
       "title": "Cancer Research",
-      "background-color": "#FFC0CB",
-      "text-colour": "#000000",
+      "color":{
+        "background_color": "#85C1E9",
+
+        "category_bg": "#5DADE2",
+        "text_color": "#21618C "
+      },
       "price": "$50",
-      "description": "Help fund cancer research and support those affected by cancer.",
-      "real image": "https://i.imgur.com/1JQdK5z.jpg"
+      "description": "Help fund cancer research and support those affected by cancer.You can now select the cancer type of your choice, make a donation or even fundraise with your own fundraising page. Pick from a wide range of cancer types.You can now select the cancer type of your choice, make a donation or even fundraise with your own fundraising page. Pick from a wide range of cancer types",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2OoEyRS2YdbGV6tt61y8xVwcHw5rn4NSDkA7SKUUYEfvpLtLfmWiZFmZpGoF4I6Fi-Bc&usqp=CAU"
     },
     {
-      "title": "Mental Health Awareness",
-      "background-color": "#ADD8E6",
-      "text-colour": "#000000",
+      "category":"Education",
+      "title": "Back to School",
+      "color":{
+        "background_color": "#FFE3E4",
+      "category_bg": "#FFC3C5",
+      "text_color": "#FF444A "
+      },
       "price": "$25",
-      "description": "Support mental health awareness and help those struggling with mental health issues.",
-      "real image": "https://i.imgur.com/7v1jJg3.jpg"
+      "description": "Provide school supplies to children in need and help them succeed in their studies.A monetary donation, no matter what size, is always helpful. It can buy school supplies, help fund field trips, and keep extracurricular activities from getting.Provide school supplies to children in need and help them succeed in their studies.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe6mfYUzRg7OzNDKzJeZyvYeRG_syS3vbmGu5d6JzMfgpEZgoYcRY9bde6CiVcILQqrXE&usqp=CAU"
     },
     {
+      "category":"Food",
+      "title": "Donate Food For Hungry People",
+      "color":{
+        "background_color": "#ABEBC6",
+      "category_bg": "#82E0AA",
+      "text_color": "#0B5345 "
+      },
+      "price": "$50",
+      "description": "Lockdown has hit daily-wage workers the hardest, leaving them jobless. Donate to help them. Help iCharity to provide food to daily wage earners & helpless people. Donate now.Donate to help them. Help iCharity to provide food to daily wage earners & helpless people. Donate now.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc1Ps1Y8rQLfF9ngSNlolqzzIsbFG90AAvsA&usqp=CAU"
+    },
+    {
+      "category":"Clothing",
+      "title": "Used Clothing shoes",
+      "color":{
+        "background_color": "#D7BDE2",
+      "category_bg": "#C39BD3",
+      "text_color": "#633974"
+      },
+      "price": "$50",
+      "description": "Planet Aid is a nonprofit organization that collects and recycles used clothes and shoes and fosters international development. Planet Aid supports projects that improve health, increase income, aid vulnerable children, train teachers, and enhance the overall quality of life for people across the globe. The bright yellow box is located next to the Books for Charity collection box.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhFLmYPA28_GgfsuQPHvFz0_0Lpp_foPItIg&usqp=CAU"
+    },
+    {
+      "category":"Health",
+      "title": "Mental Health Awareness",
+      "color":{
+        "background_color": "#85C1E9",
+      "category_bg": "#5DADE2",
+      "text_color": "#21618C "
+      },
+      "price": "$25",
+      "description": "Support mental health awareness and help those struggling with mental health issues.Mental illness and poverty are intricate parts of a vicious cycle that needs to be address. Mental health is a critical ingredient that is missing from development programmes.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3PxYrsBk4-lCt4H8n_trRUV41TgE_h0G8Cw&usqp=CAU"
+    },
+    {
+      "category":"Food",
+      "title": "Hunger Charity Donation",
+      "color":{
+        "background_color": "#ABEBC6",
+      "category_bg": "#82E0AA",
+      "text_color": "#0B5345 "
+      },
+      "price": "$50",
+      "description": "Baitulmaal Matches Its Donors Compassion With the Needs of Those Struggling With Hunger. Enough Food Exists in the World, Yet People Still Suffer From Food Insecurity.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH_WqaCxlg5a-a5VbHCKJyvN3AVwc0CZID-w&usqp=CAU"
+    },
+    {
+      "category":"Education",
+      "title": "Education for All",
+      "color":{
+        "background_color": "#FFE3E4",
+      "category_bg": "#FFC3C5",
+      "text_color": "#FF444A "
+      },
+      "price": "$50",
+      "description": "Help fund scholarships for students who cannot afford higher education.The Education for All (EFA) initiative was adopted as part of the development vision of the Awami League Government in Bangladesh led by Prime Minister Sheikh Hasina.",
+      "image": "https://miro.medium.com/v2/resize:fit:8160/1*X__QB6TTNm5c3yZeDOYaQQ.jpeg"
+    },
+    {
+      "category":"Clothing",
+      "title": "Give Them Warmth Cover",
+      "color":{
+        "background_color": "#D7BDE2",
+      "category_bg": "#C39BD3",
+      "text_color": "#633974"
+      },
+      "price": "$50",
+      "description": "Planet Aid is a nonprofit organization that collects and recycles used clothes and shoes and fosters international development. Planet Aid supports projects that improve health, increase income, aid vulnerable children, train teachers, and enhance the overall quality of life for people across the globe. The bright yellow box is located next to the Books for Charity collection box.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxp2XeGHcS4xdnzc3dJLKInXpEDk1JO6_0Eg&usqp=CAU"
+    },
+    {
+      "category":"Health",
       "title": "Child Health and Nutrition",
-      "background-color": "#90EE90",
-      "text-colour": "#000000",
+      "color":{
+        "background_color": "#85C1E9",
+      "category_bg": "#5DADE2",
+      "text_color": "#21618C "
+      },
       "price": "$10",
-      "description": "Help provide children with access to nutritious food and healthcare.",
-      "real image": "https://i.imgur.com/4zL9W8V.jpg"
+      "description": "Help provide children with access to nutritious food and healthcare.Nutrition to a child means not only health, but also growth and development. A main purpose for child healthcare is the promotion of child nutrition and health protection/promotion.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAI1Pawtna7VYLyySC0zLqzmD6LV0KOu2SUw&usqp=CAU"
+    },
+    {
+      "category":"Education",
+      "title": "Empowering Educators",
+      "color":{
+        "background_color": "#FFE3E4",
+      "category_bg": "#FFC3C5",
+      "text_color": "#FF444A "
+      },
+      "price": "$10",
+      "description": "Support teacher training programs and help educators improve their teaching skills.The goal of this issue is to empower educators with the skills, self-awareness, and confidence to be successful in the many different aspects of their work.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPy11yAp4VW2FLGHyf-FozM_5IlULYqtVXXg&usqp=CAU"
+    },
+    {
+      "category":"Food",
+      "title": "Donate Food Today",
+      "color":{
+        "background_color": "#ABEBC6",
+      "category_bg": "#82E0AA",
+      "text_color": "#0B5345 "
+      },
+      "price": "$50",
+      "description": "Help us feed the hungry by donating food or money to the Sumner Community Food Bank. You can make a family in need's day! Donate to fight hunger today!You can make a family in need's day! Donate to fight hunger today!",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG2QXGP2e1c9g0At6tTk0jtHRLBUJ0ByQmSw&usqp=CAU"
+    },
+    {
+      "category":"Clothing",
+      "title": "Cover Them With Warmth",
+      "color":{
+        "background_color": "#D7BDE2",
+      "category_bg": "#C39BD3 ",
+      "text_color": "#633974"
+      },
+      "price": "$50",
+      "description": "Planet Aid is a nonprofit organization that collects and recycles used clothes and shoes and fosters international development. Planet Aid supports projects that improve health, increase income, aid vulnerable children, train teachers, and enhance the overall quality of life for people across the globe. The bright yellow box is located next to the Books for Charity collection box.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQloRsSbULp2gpdTJPDbaj3oB5FSQ8ZfTIgpg&usqp=CAU"
     }
   ]
   
