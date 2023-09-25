@@ -18,8 +18,8 @@ const Category = ({ donate }) => {
                     <img className="w-full h-[200px]" src={image} alt="" />
                     <div className="p-2">
                         <button className="text-xl font-normal py-1 px-2 rounded-md" style={{background:category_bg,color:text_color }}>{category} </button>
-                        
                         <h2 className="text-2xl h-[60px] mt-2 font-semibold" style={{color:text_color}}>{title} </h2>
+                        
                     </div>
                
             </div>

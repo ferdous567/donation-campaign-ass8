@@ -9,7 +9,7 @@ const CardDetails = () => {
     const cards = details.find(card => card.title === title)
     const color = cards.color;
     const {text_color} = color;
-    console.log(cards)
+    // console.log(cards)
 
     const handleButtonDonate = () =>{
         savedDonations(title);
