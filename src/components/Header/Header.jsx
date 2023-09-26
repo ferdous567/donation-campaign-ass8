@@ -1,6 +1,17 @@
+import { useState } from "react";
 import Navbar from "../Navbar/Navbar";
 
 const Header = () => {
+    const [handleCard, setHandleCard] = useState('');
+    const handleSubmit = e =>{
+        e.preventDefault();
+        console.log(handleCard);
+        
+    }
+
+    const handleCardChange = e =>{
+        setHandleCard(e.target.value)
+    }
     return (
         <div className="relative">
 
@@ -18,10 +29,13 @@ const Header = () => {
                 <div className="hero-content text-center text-neutral-content">
                     <div className="max-w-full">
                         <p className="text-5xl text-black font-bold mb-10">I Grow By Helping People In Need</p>
-                        <div className="flex justify-center">
-                        <input type="text" placeholder="Type here" className="input input-bordered input-success w-full max-w-xs mr-4 text-black" />
+                        
+                        <form onSubmit={handleSubmit} className="flex justify-center">
+                        <input type="text" name="name"
+                        onChange={handleCardChange}
+                        placeholder="Type here" className="input input-bordered input-success w-full max-w-xs mr-4 text-black" />
                         <button className="btn btn-primary">Search</button>
-                        </div>
+                        </form>
                         
                     </div>
                 </div>

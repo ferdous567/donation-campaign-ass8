@@ -1,10 +1,12 @@
 import Navbar from "../Navbar/Navbar";
+import PieChart from "../PieChart/PieChart";
 
 const Statistics = () => {
     return (
         <div>
             <Navbar></Navbar>
-            <h3>This is Statistics page</h3>
+            
+            <PieChart></PieChart>
         </div>
     );
 };
