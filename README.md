@@ -11,4 +11,10 @@ Sweet alert is the sweet typed alert systems. Its showes very nice, simple uses 
 
 ### 3.Using Meterial Tailwind card, daisy card :
 
+When i used card component , i'm always installed daisy ui, at the first of the time i'm installed meterial tailwind and one cards uses of there, there both is very comfortable to use.
+
+# Those are three features which i used my assignment.
+
+Thank You Programming Hero Team, Happy Coding.....
+
 
