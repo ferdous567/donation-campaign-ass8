@@ -25,10 +25,13 @@ const Donation = () => {
                     donation.slice(0, dataLength).map(donate => <Donate key={donate.title} donate={donate}></Donate>)
                 }
             </div>
-            <div className={dataLength === donation.length ? 'hidden' : 'text-center my-5'}>
-            <button onClick={() => setDataLength(donation.length)} 
-            className='btn btn-secondary'>Show All</button>
-            </div>
+            {
+                donation.length > 4 && <div className={`${dataLength == donation.length ? 'hidden' : ''}  text-center my-5  `}>
+                    <button onClick={() => setDataLength(donation.length)} 
+                    className='btn btn-secondary'>Show All</button>
+                </div>
+            }
+            
         </div>
     );
 };
