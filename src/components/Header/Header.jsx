@@ -4,7 +4,7 @@ import Navbar from "../Navbar/Navbar";
 
 const Header = ({handleSearch}) => {
     
-
+    
     return (
         <div className="relative">
 
