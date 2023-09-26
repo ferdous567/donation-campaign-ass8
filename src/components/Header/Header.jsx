@@ -1,17 +1,10 @@
-import { useState } from "react";
+import PropTypes from 'prop-types'
 import Navbar from "../Navbar/Navbar";
+// import { useLoaderData } from "react-router-dom";
 
-const Header = () => {
-    const [handleCard, setHandleCard] = useState('');
-    const handleSubmit = e =>{
-        e.preventDefault();
-        console.log(handleCard);
-        
-    }
+const Header = ({handleSearch}) => {
+    
 
-    const handleCardChange = e =>{
-        setHandleCard(e.target.value)
-    }
     return (
         <div className="relative">
 
@@ -30,12 +23,14 @@ const Header = () => {
                     <div className="max-w-full">
                         <p className="text-5xl text-black font-bold mb-10">I Grow By Helping People In Need</p>
                         
-                        <form onSubmit={handleSubmit} className="flex justify-center">
+                        <div className="flex justify-center">
                         <input type="text" name="name"
-                        onChange={handleCardChange}
+                        onChange={handleSearch}
                         placeholder="Type here" className="input input-bordered input-success w-full max-w-xs mr-4 text-black" />
-                        <button className="btn btn-primary">Search</button>
-                        </form>
+                        <button type="button" className="btn btn-primary">Search</button>
+                        </div>
+                      
+                        
                         
                     </div>
                 </div>
@@ -43,5 +38,8 @@ const Header = () => {
         </div>
     );
 };
+Header.propTypes = {
+    handleSearch: PropTypes.func
+}
 
 export default Header;
